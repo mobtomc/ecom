@@ -3,7 +3,7 @@ import './Start.scss'
 const Start = () => {
   return (
     <div class="about-sec">
-      gv
+      <h1>uuivsydouobovo</h1>
     </div>
   )
 }
