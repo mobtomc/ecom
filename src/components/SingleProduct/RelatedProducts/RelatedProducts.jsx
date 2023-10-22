@@ -1,9 +1,10 @@
 import React from 'react'
 import Products from '../../Products/Products'
+import Header from '../../Header/Header'
 
 export default function RelatedProducts() {
   return (
-    <div>
+    <div  id="yahaScrollHo">
       <Products headingText="Related Products"/>
 
     </div>

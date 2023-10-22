@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 import Category from "./components/Category/Category";
 import SingleProduct from "./components/SingleProduct/SingleProduct";
 import Header from "./components/Header/Header";
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/category/:id" element={<Category />}></Route>
           <Route path="/product/:id" element={<SingleProduct />}></Route>
           <Route path="/success" element={<SuccessPage/>}></Route>
+          <Route path="/about" element={<About/>}></Route>
         </Routes>
         <Newsletter />
         <Footer />
