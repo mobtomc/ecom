@@ -12,10 +12,7 @@ const Footer = () => {
                 <div className="col">
                     <div className="title">About</div>
                     <div className="text">
-                        Voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi architecto beatae vitae dicta sunt explicabo eaque
-                        ipsa quae ab illo.
+                    Illuminate your world with our stunning collection of lamps. Discover elegant designs, from modern to classic, crafted to enhance your space. Find the perfect lighting solution at our online lamp emporium.
                     </div>
                 </div>
                 <div className="col">
@@ -23,16 +20,16 @@ const Footer = () => {
                     <div className="c-item">
                         <FaLocationArrow />
                         <div className="text">
-                            Kumudi Appartments Dwarka,New Delhi.
+                           Near St Marks school,MeeraBagh,New Delhi.
                         </div>
                     </div>
                     <div className="c-item">
                         <FaMobileAlt />
-                        <div className="text">Phone: 9540029555</div>
+                        <div className="text">Phone: 9999960085</div>
                     </div>
                     <div className="c-item">
                         <FaEnvelope />
-                        <div className="text">Email: ansh.varma7@gmail.com</div>
+                        <div className="text">Email: aryabhat99@gmail.com</div>
                     </div>
                 </div>
                 <div className="col">
@@ -57,8 +54,7 @@ const Footer = () => {
             <div className="bottom-bar">
                 <div className="bottom-bar-content">
                     <span className="text">
-                        EComStore 2023 CREATED BY Ansh Varma E-COMMERCE
-                        SOLUTIONS.
+                        EComStore 2023 CREATED BY Aryan Bhat at SoftwareIndia
                     </span>
                     <img src={Payment} alt="" />
                 </div>

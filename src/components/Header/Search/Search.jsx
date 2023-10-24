@@ -28,7 +28,7 @@ export default function Search({ setShowSearch }) {
           </div>
         </div>
       </div> */}
-      <div>This page is Under Development</div>
+      <div></div>
     </div>
   );
 }
