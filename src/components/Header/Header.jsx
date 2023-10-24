@@ -36,6 +36,7 @@ import { Context } from "../../utils/context";
             <li onClick={()=>navigate("/")}>Home</li>
             <li onClick={()=>navigate("abou")}>About</li>
             <li >Categories</li>
+            <li >ContactUs</li>
           </ul>
           <div className="center" onClick={()=>navigate("/")}>Roshni</div>
           <div className="right">
