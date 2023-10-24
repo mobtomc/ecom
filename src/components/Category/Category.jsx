@@ -41,7 +41,7 @@ export default function Category() {
     <div className="category-main-content">
     Cat
       <div className="layout">
-        <div className="category-title">{catwithid?.data} Plants</div>
+        <div className="category-title">{catwithid?.data}</div>
         {catwithid?.map((item,index)=>(
           <Product key={item.id} id={item.id} data={item} />
         ))}
