@@ -7,6 +7,10 @@
     .layout {
         max-width: calc(100% - 20px);
         margin: 0 auto;
+        
+        display: flex;
+        flex-flow: wrap;
+        gap: 10px;
         @include md {
             max-width: 1200px;
         }
