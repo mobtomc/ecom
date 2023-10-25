@@ -2,18 +2,20 @@
 .category-main-content {
     margin: 0;
     background: linear-gradient(to left, #ececec ,#ececec);
+    
     @include md {
         margin:  0;
     }
     .layout {
         max-width: calc(100% - 20px);
         margin: 0 auto;
-        
         display: flex;
         flex-flow: wrap;
+        flex-direction: row;
         gap: 15px;
         @include md {
             max-width: 1200px;
+           
         }
     }
     .category-title {
