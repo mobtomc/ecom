@@ -34,9 +34,9 @@ import { Context } from "../../utils/context";
         <div className="header-content">
           <ul className="left">
             <li onClick={()=>navigate("/")}>Home</li>
-            <li onClick={()=>navigate("abou")}>About</li>
-            <li >Categories</li>
-            <li >ContactUs</li>
+            <li ><a href="https://medium.com/@aryabhat99/illuminating-your-way-forward-roshni-1523b78ae0f5" >About</a></li>
+            <li> <a href="#yahaScrollHo" >Categories</a></li>
+            <li ><a href="#contact" >ContactUs</a> </li>
           </ul>
           <div className="center" onClick={()=>navigate("/")}>Roshni</div>
           <div className="right">

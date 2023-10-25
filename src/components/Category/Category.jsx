@@ -36,10 +36,12 @@ export default function Category() {
       setcatwithid(res)
     })
   }
+  
 
   return (
     <div className="category-main-content">
     Cat
+  
       <div className="layout">
         <div className="category-title">{catwithid?.data}</div>
         {catwithid?.map((item,index)=>(

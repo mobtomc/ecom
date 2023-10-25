@@ -11,13 +11,14 @@ export default function Product({data}) {
     {/* {console.log(data)} */}
       <div className="thumbnail">
         <img src={data.image} alt="" />
+        
       </div>
-
       <div className="prod-details">
         <span className="name">{data.title}</span>
         {/* <span className="name">{data.description}</span> */}
         <span className="price">&#8377;{data.price}</span>
-      </div>
+        </div>
+      
     </div>
   )
 }

@@ -4,7 +4,7 @@ import Start from './Start/Start'
 const About = () => {
   return (
     <div  >
-      <Start/>
+      
     </div>
   )
 }

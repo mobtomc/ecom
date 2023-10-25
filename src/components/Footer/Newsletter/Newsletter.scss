@@ -22,24 +22,28 @@
         }
         .small-text {
             margin-bottom: 15px;
-            text-transform: uppercase;
-            color: rgba(0, 0, 0, 0.5);
+           color:black;
+            font-size: 22px;
+            font-weight: 400;
+            max-width: (100%-20);
+           
         }
         .big-text {
             margin-bottom: 20px;
             font-size: 22px;
             line-height: 30px;
             font-weight: 500;
-            text-transform: uppercase;
+            color:black;
             padding: 0 30px;
             @include md {
-                font-size: 28px;
+                font-size: 32px;
             }
         }
         .form {
             display: flex;
             gap: 5px;
             margin-bottom: 10px;
+           
             input {
                 width: 200px;
                 height: 40px;
@@ -62,12 +66,14 @@
                 justify-content: center;
                 cursor: pointer;
                 font-size: 16px;
-                color: white;
+                color: black;
+                font-weight: 500;
                 // background: #8e2de2;
                 background-image: linear-gradient(to left, #6045cc, rgb(97, 121, 159) );
                 border-bottom: 3px solid #8d84d1;
                 @include md {
-                    width: 120px;
+                    width: 220px;
+                    font-size: 20px;
                 }
             }
         }

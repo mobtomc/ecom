@@ -8,15 +8,16 @@ import {
 import "./Newsletter.scss";
 const Newsletter = () => {
     return (
-        <div className="newsletter-section">
+        <div className="newsletter-section" id="contact">
             <div className="newsletter-content">
-                {/* <span className="small-text">Newsletter</span> */}
-                <span className="big-text">
-                    Sign up for latest updates and offers
+                <span className="big-text">ContactUs</span>
+                <span className="small-text">
+                   
+Have questions or need assistance? Reach out to our dedicated customer support team. We're here to help you with any inquiries, feedback, or concerns. Contact us today!
                 </span>
                 <div className="form">
                     <input type="text" placeholder="Email Address" />
-                    <button>Subscribe</button>
+                    <button className="bb">GetInTouchWithUs</button>
                 </div>
                 <span className="text">
                     Will be used in accordance with our Privacy Policy

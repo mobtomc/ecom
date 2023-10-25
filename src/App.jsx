@@ -17,11 +17,13 @@ export default function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          
           <Route path="/category/:id" element={<Category />}></Route>
           <Route path="/product/:id" element={<SingleProduct />}></Route>
           <Route path="/success" element={<SuccessPage/>}></Route>
-          <Route path="/about" element={<About/>}></Route>
+          
         </Routes>
+        <About/>
         <Newsletter />
         <Footer />
       </AppContext>

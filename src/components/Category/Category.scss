@@ -1,8 +1,9 @@
 @import "../../css-config/mixins.scss";
 .category-main-content {
-    margin: 30px 0;
+    margin: 0;
+    background: linear-gradient(to left, #ececec ,#ececec);
     @include md {
-        margin: 75px 0;
+        margin:  0;
     }
     .layout {
         max-width: calc(100% - 20px);
@@ -10,7 +11,7 @@
         
         display: flex;
         flex-flow: wrap;
-        gap: 10px;
+        gap: 15px;
         @include md {
             max-width: 1200px;
         }
@@ -22,9 +23,9 @@
         }
     }
     .products-container {
-        margin: 20px 0;
+        margin:  0;
         @include md {
-            margin: 50px 0;
+            margin:  0;
         }
     }
 }

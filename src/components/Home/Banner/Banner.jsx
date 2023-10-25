@@ -14,7 +14,7 @@ export default function Banner() {
                       illuminating your way forward
                     </p>
                     <div className="ctas">
-                        <div className="banner-cta">Read More</div>
+                       <a href="https://medium.com/@aryabhat99/illuminating-your-way-forward-roshni-1523b78ae0f5" ><div className="banner-cta">Read More</div></a>
                         <a href="#yahaScrollHo" className="hello"><div className="banner-cta v2">Shop Now</div></a>
                     </div>
                 </div>
