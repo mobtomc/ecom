@@ -59,6 +59,7 @@
         font-weight: 700;
         cursor: pointer;
         letter-spacing: 2px;
+        
         @include md {
             font-size: 34px;
             position: absolute;
@@ -132,7 +133,11 @@
     text-decoration: none;
     color: white;
 }
-
+.icon{
+    @include md{
+        display:none;
+    }
+}
 
 
 

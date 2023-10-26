@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { Context } from "../../utils/context";
 
  export default function Header() {
+  
   const {cartCount}=useContext(Context)
 
   const navigate= useNavigate()
@@ -27,17 +28,21 @@ import { Context } from "../../utils/context";
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   }, []);
+  
  
   return (
     <>
       <header className={`main-header ${scrolled ? "sticky-header" : ""}`}>
         <div className="header-content">
-          <ul className="left">
+          <ul className="left" id="myLinks">
             <li onClick={()=>navigate("/")}>Home</li>
             <li ><a href="https://medium.com/@aryabhat99/illuminating-your-way-forward-roshni-1523b78ae0f5" >About</a></li>
             <li> <a href="#yahaScrollHo" >Categories</a></li>
             <li ><a href="#contact" >ContactUs</a> </li>
           </ul>
+          <a href="javascript:void(0);" class="icon" onclick="">
+            <i class="fa fa-bars"></i>
+          </a>
           <div className="center" onClick={()=>navigate("/")}>Roshni</div>
           <div className="right">
             <BiSearch onClick={()=>setShowSearch(true)}/>
