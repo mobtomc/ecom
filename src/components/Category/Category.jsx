@@ -40,8 +40,8 @@ export default function Category() {
 
   return (
     <div className="category-main-content">
-      <div>
-           button here
+      <div className="gg">
+           <p>button here</p>
            </div>
   
       <div className="layout">

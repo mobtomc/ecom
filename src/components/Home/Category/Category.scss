@@ -2,7 +2,7 @@
 .shop-by-category {
     margin: 25px 0;
     @include md {
-        margin: 50px 0;
+        // margin: 50px 0;
     }
     .categories {
         display: flex;
@@ -23,13 +23,14 @@
                 width: calc(25% - 10px);
             }
             img {
-                width: 100%;
+                width: 90%;
+                // height: auto;
                 display: block;
                 transition: all ease 0.3s;
             }
             &:hover {
                 img {
-                    transform: scale(1.2);
+                    transform: scale(0.9);
                 }
             }
         }
