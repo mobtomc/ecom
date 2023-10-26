@@ -21,7 +21,7 @@ export default function Product({data}) {
           <span className="price">&#8377;{data.price}</span>
         </div>
         </div>
-        </div>
+      </div>
     </div>
   )
 }

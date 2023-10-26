@@ -3,11 +3,12 @@
 .product-card {
     cursor: pointer;
 
-    width: calc(50% - 5px);
+   width: calc(50% - 5px);
     place-items: center stretch;
     border: 0.1px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
+    background: linear-gradient(to left, #ececec ,#ececec);
     @include md {
         width: calc(25% - 15px);
        
@@ -31,7 +32,7 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             align-items: center;
             border-radius: 10px;
-            border-bottom: 5px outset #8e2de2;
+            // border-bottom: 5px outset #8e2de2;
         
             @include md {
                 height: 60vh;
@@ -89,7 +90,7 @@
             img {
                 transform: scale(1.05);
             }
-            border-bottom: 5px double #8e2de2; ;
+            border-bottom: 5px outset #8e2de2; ;
         }
     }
 }
