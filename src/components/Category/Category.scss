@@ -2,6 +2,7 @@
 .category-main-content {
     margin: 0;
     background: linear-gradient(to left, #ececec ,#ececec);
+  
     
     @include md {
         margin:  0;
@@ -15,6 +16,9 @@
         gap: 15px;
         @include md {
             max-width: 1200px;
+            display: flex;
+            flex-flow: wrap;
+            flex-direction: row;
            
         }
     }

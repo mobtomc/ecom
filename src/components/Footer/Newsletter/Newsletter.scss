@@ -8,6 +8,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
+
     .newsletter-content {
         width: fit-content;
         display: flex;
@@ -45,13 +47,14 @@
             margin-bottom: 10px;
            
             input {
-                width: 200px;
+                width: 50%;
                 height: 40px;
                 border-radius: 0;
                 border: 1px solid rgba(0, 0, 0, 0.2);
                 padding: 0 12px;
                 font-size: 16px;
                 outline: none;
+                margin-left: 5px;
                 @include md {
                     width: 300px;
                 }
@@ -60,7 +63,7 @@
                 outline: 0;
                 border: 0;
                 height: 40px;
-                width: 150px;
+                width: 50%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -71,6 +74,7 @@
                 // background: #8e2de2;
                 background-image: linear-gradient(to left, #6045cc, rgb(97, 121, 159) );
                 border-bottom: 3px solid #8d84d1;
+                margin-right: 5px;
                 @include md {
                     width: 220px;
                     font-size: 20px;
