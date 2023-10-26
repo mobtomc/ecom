@@ -40,7 +40,9 @@ export default function Category() {
 
   return (
     <div className="category-main-content">
-    button id here
+      <div>
+           button here
+           </div>
   
       <div className="layout">
         <div className="category-title">{catwithid?.data}</div>

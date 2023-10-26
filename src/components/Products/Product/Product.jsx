@@ -9,6 +9,7 @@ export default function Product({data}) {
     
     <div className="product-card" onClick={()=>navigate("/product/" + data.id)}>
     {/* {console.log(data)} */}
+     <div className='flexb'>
       <div className="thumbnail">
         <img src={data.image} alt="" />
         
@@ -20,7 +21,7 @@ export default function Product({data}) {
           <span className="price">&#8377;{data.price}</span>
         </div>
         </div>
-      
+        </div>
     </div>
   )
 }
